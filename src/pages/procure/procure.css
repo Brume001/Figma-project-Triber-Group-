@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pro-section {
+    padding: 0px;
+}
+
+.pro-section h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+}
+
+.pro-section a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+}
+
+.busi-section {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+
+}
+.service-textp {
+    padding: 0px;
+}
+
+.txt-img1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 26px;
+    margin:50px;
+
+}
+.txt1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.txt1 h3 {
+    line-height: 148%;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.txt1 p {
+    line-height: 175%;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+.txt-img2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    margin:50px;
+
+}
+.txt2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.txt2 h3 {
+    line-height: 148%;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+
+.txt2 p {
+    line-height: 175%;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+.img{
+    background-color: black;
+    width: 617px;
+    height: 661px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 685px;
+    height: 496.88px;
+    
+}
+.img2 img{
+    width: 879.03px;
+    height: 660px;
+    
+}
+.cta-ship {
+    padding: 50px;
+    margin-top: 150px;
+    background-color: burlywood;
+}
+
+.cta-ship-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cta-ship-text h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 140%;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.cta-ship-text p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 175%;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.04em;
+
+}

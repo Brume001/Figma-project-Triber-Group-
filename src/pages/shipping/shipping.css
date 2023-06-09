@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ship-section {
+    padding: 0px;
+}
+
+.ship-section h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+}
+
+.ship-section a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+}
+
+.busi-section {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+
+}
+.service-text{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.text{
+    margin: 10px 120px;
+
+}
+.text h3{
+    line-height: 148%;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+.text p{
+    line-height: 175%;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+.shipimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.shipimg img{
+    width: 1007px;
+}
+.cta-shi {
+    background: url(backgroundBuilding.png);
+    padding: 50px;
+    margin-top: 150px;
+    background-size: contain;
+    height: 280px;
+}
+
+.cta-shi-section {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cta-btton{
+    border: 1px solid;
+        padding: 9px 22px;
+        background-color: #F56411;
+        border-radius: 22px;
+        color: white;
+}
+.cta-shi-text h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 140%;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+.cta-shi-text p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 175%;
+    font-size: 20px;
+    font-weight:400;
+    font-style: normal;
+    letter-spacing: -0.04em;
+    
+}
